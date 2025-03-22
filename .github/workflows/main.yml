@@ -21,7 +21,7 @@ jobs:
           context: ./src
           push: true
           file: ./src/Dockerfile
-          tags: lucastandy/fake-shop-desafio:v2
+          tags: lucastandy/fake-shop-desafio:v${{ github.run_number }}
 
 
           
